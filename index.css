@@ -42,4 +42,25 @@ main {
     padding: 16px;
     margin: 12px 0;
     border-radius: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item h3 {
+    margin: 0;
+}
+
+.todo-item p {
+    margin: 0;
+    margin-top: 8px;
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+}
+
+#mouse-demo {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
 }
